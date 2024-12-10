@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+h1{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+
+    
+    
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+          
+    
+}
+
+.navbar{
+    background-color:#333;
+    padding:10px;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding:10px 15px;
+    font-size:medium;
+}
+.navbar a:hover{
+    background-color:#575757;
+    border-radius:5px;
+}
+
+.box-model{
+    padding:15px;
+    background-color: #333;
+    border: 5px solid lightblue;
+    margin: 20px;
+    text-align: center;
+}
+
+.sidebar{
+    background-color: #222;
+    width:200px;
+    height:100%;
+    position:fixed;
+    top:60px;
+    left:0;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding:0;
+}
+
+.sidebar ul li{
+    margin: 15px 0;
+}
+.sidebar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.sidebar ul li a:hover{
+    text-decoration: underline;
+}
+
+.maincontent{
+    margin-left:220px;
+    padding:20px;
+}
